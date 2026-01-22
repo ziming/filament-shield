@@ -76,7 +76,7 @@ return [
         'force_delete_any' => 'Hapus permanen semua',
         'restore' => 'Pulihkan',
         'replicate' => 'Duplikat',
-        'reorder' => 'Urutkan Ulang',
+        'reorder' => 'Urutkan ulang',
         'restore_any' => 'Pulihkan semua',
     ],
 ];
