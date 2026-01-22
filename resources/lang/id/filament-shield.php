@@ -72,7 +72,7 @@ return [
         'update' => 'Ubah',
         'delete' => 'Hapus',
         'delete_any' => 'Hapus semua',
-        'force_delete' => 'Hapus Permanen',
+        'force_delete' => 'Hapus permanen',
         'force_delete_any' => 'Hapus permanen semua',
         'restore' => 'Pulihkan',
         'replicate' => 'Duplikat',
