@@ -281,7 +281,7 @@ describe('SeederCommand with Tenancy', function () {
         expect($content)->toContain($this->user->email);
         expect($content)->toContain('"password":');
     })
-    ->skipOnCI();
+        ->skipOnCI();
 
     it('exports users with included database passwords', function () {
         $role = createTenancyRole($this->team->id, ['name' => 'admin']);
