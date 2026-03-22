@@ -9,6 +9,7 @@ use BezhanSalleh\FilamentShield\Support\Utils;
 use Filament\Resources\Pages\CreateRecord;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
+use Override;
 
 class CreateRole extends CreateRecord
 {
@@ -16,6 +17,7 @@ class CreateRole extends CreateRecord
 
     protected static string $resource = RoleResource::class;
 
+    #[Override]
     protected function mutateFormDataBeforeCreate(array $data): array
     {
         $this->permissions = collect($data)
